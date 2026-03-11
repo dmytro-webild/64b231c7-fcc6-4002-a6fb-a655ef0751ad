@@ -6,7 +6,7 @@ interface SvgTextLogoProps {
   fontSize?: number;
   fontWeight?: number | string;
   letterSpacing?: number;
-  dominantBaseline?: 'auto' | 'baseline' | 'hanging' | 'ideographic' | 'mathematical' | 'middle';
+  dominantBaseline?: 'auto' | 'inherit' | 'alphabetic' | 'hanging' | 'ideographic' | 'mathematical' | 'text-before-edge' | 'middle' | 'central' | 'text-after-edge' | 'use-script' | 'no-change' | 'reset-size';
 }
 
 const SvgTextLogo: React.FC<SvgTextLogoProps> = ({
